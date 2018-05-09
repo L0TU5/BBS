@@ -1,0 +1,162 @@
+<!DOCTYPE html><html>
+
+		<head>
+			<title>BBSpecialized</title>
+			<link rel="stylesheet" type="text/css" href="BBS.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+		</head>
+		
+		<body>
+			<div class="header">
+				<div class="logo">
+					[LOGO HERE]
+				</div>
+				<div class="mobileLogo">[LOGO HERE]</div>
+		
+				<div class="topNav">
+		
+					<button class="topBtn tablinks btnHome" onclick="openTab(event, 'Home')">HOME</button>
+		
+					<button class="topBtn tablinks btnAbout" onclick="openTab(event, 'About')">ABOUT</button>
+		
+					<button class="topBtn tablinks btnServices" onclick="openTab(event, 'Services')">SERVICES</button>
+		
+					<button class="topBtn tablinks btnContact" onclick="openTab(event, 'Contact')">CONTACT</button>
+				</div>
+		
+				<div class="hamBurg">
+					<div class="navicon-button x">
+						<div class="navicon"></div>
+					</div>
+				</div>
+				<div id="sideNav">
+		
+					<button class="sideBtn tablinks btnHome" onclick="openTab(event, 'Home')">HOME</button>
+		
+					<button class="sideBtn tablinks" onclick="openTab(event, 'About')">ABOUT</button>
+		
+					<button class="sideBtn tablinks" onclick="openTab(event, 'Services')">SERVICES</button>
+		
+					<button class="sideBtn tablinks" onclick="openTab(event, 'Contact')">CONTACT</button>
+		
+					<div id="sideSocial">
+						<a id="socialLink" href=""><i class="fab fa-linkedin"></i></a>
+						<a id="socialLink" href=""><i class="fab fa-facebook"></i></a>
+						<a id="socialLink" href=""><i class="fab fa-google-plus-square"></i></a>
+					</div>
+				</div>
+			</div>
+		
+			<!-- TESTING -------------------------------------------------------------------------------->
+			<div id="Contact" class="mainContent">
+				<div class="textContainer">
+					<div class="contentLeft">
+						<h2>Contact Company</h2><br>
+						<h3>General Inquiries:</h3>
+						<p><a href="mailto:Sales@BonnieBlueSpecialized.com" target="_Blank"><b>email@placeholderemail.com</a><br> XXX-XXX-XXXX</b></p><br>
+						<h3>Mailing Address:</h3>
+						<p>500 Placeholder Street., #112<br> Place, WA XXXXX</p>
+					</div>
+					<div class="contentRight">
+						<div class="contactForm">
+							<h4>Name: </h4>
+							<input class="smallForm" id="name" placeholder="[ Your Name ]">
+							<h4>Company: </h4>
+							<input class="smallForm" id="company" placeholder="[ Your Company ]">
+							<h4>Email: </h4>
+							<input class="smallForm" id="email" placeholder="[ Your Email ]">
+							<h4>Phone: </h4>
+							<input class="smallForm" id="phone" placeholder="[ Your Phone Number ]">
+							<h4>Message:</h4>
+							<input class="bigForm" id="message">
+							<button class="submitForm" id="submit"><h4 style="font-size: 30px;">Submit</h4></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div id="About" class="mainContent">
+				<div class="textContainer">
+					<h2>About test page </h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper
+						porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+		
+					<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis
+						quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. </p>
+		
+					<p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla
+						facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. </p>
+				</div>
+			</div>
+		
+			<div id="Services" class="mainContent">
+				<div class="textContainer">
+					<h2>Services test page </h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper
+						porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+		
+					<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis
+						quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. </p>
+		
+					<p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla
+						facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. </p>
+				</div>
+			</div>
+			<!-- TESTING +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+		
+			<div id="Home" class="mainContent" style="display: block;">
+				<!--Change back to block!!++++++++++++++++++++++++++++++++++++++++++++++ -->
+				<div class="HomePage">
+		
+					<div class="section parallax bg1">
+						<h1 class="impactIntro">This is an H1 heading</h1>
+					</div>
+					<div class="section static">
+						<div class="sectionContent">
+							<div class="contentLeft">
+								<h2>This is an H2 heading</h2>
+								<h3>This is an H3 heading</h3>
+								<h4>This is an H4 heading</h4>
+								<h5>This is an H5 heading</h5>
+								<h6>This is an H6 heading</h6>
+							</div>
+							<div class="contentRight">
+								<p>This is regular text. <b>This is bold text.</b> <i>This is italic.</i></p>
+								<a href="">This is a link</a>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper
+									porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+								
+											<p>Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis
+						quis ligula lacinia aliquet. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. </p>
+		
+					<p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla
+						facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. </p>
+							</div>
+						</div>
+					</div>
+					<div class="section parallax bg2">
+						<h1>MORE H1 TEXT</h1>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="copyWrites">
+					COMPANY <i class="far fa-copyright"></i> 2018
+					<p style="margin: 0; color: grey;">I MAKED DIS!</p>
+				</div>
+				<div class="social">
+					<div style="font-size: 30px;">
+						<a id="socialLink" href=""><i class="fab fa-linkedin"></i></a>
+						<a id="socialLink" href=""><i class="fab fa-facebook"></i></a>
+						<a id="socialLink" href=""><i class="fab fa-google-plus-square"></i></a>
+					</div>
+					</h3>
+				</div>
+			</div>
+		</body>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+		<script src="BBS.js"></script>
+		
+		</html>
